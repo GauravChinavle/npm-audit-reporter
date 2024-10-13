@@ -42,11 +42,11 @@ npm run audit
 
 Output for `npm-audit-reporter --reporter text`:
 
-<img src="./.README/text.png" alt="Text audit report in tabular format" />
+<img src="./README/text.png" alt="Text audit report in tabular format" />
 
 Output for `npm-audit-reporter --reporter html`:
 
-<img src="./.README/html.png" alt="HTML audit report" />
+<img src="./README/html.png" alt="HTML audit report" />
 <br />
 
 ## Options
