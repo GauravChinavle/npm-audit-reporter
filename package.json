@@ -3,6 +3,7 @@
    "version": "1.0.0",
    "description": "",
    "main": "dist/index.js",
+   "license": "MIT",
    "bin": {
       "npm-audit-reporter": "dist/index.js"
    },
