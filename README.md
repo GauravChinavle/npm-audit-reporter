@@ -4,6 +4,12 @@ This project builds on top of the existing `npm audit` functionality by providin
 
 [![NPM](https://nodei.co/npm/npm-audit-reporter.png)](https://www.npmjs.com/package/npm-audit-reporter)
 
+## Note
+
+Currently only compatible with npm versions <=6.14.18
+
+<br />
+
 ## Installation
 
     $ npm install --save npm-audit-reporter
