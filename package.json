@@ -1,6 +1,6 @@
 {
    "name": "npm-audit-reporter",
-   "version": "1.0.2",
+   "version": "1.0.3",
    "description": "",
    "main": "dist/index.js",
    "license": "MIT",
@@ -26,5 +26,27 @@
       "chalk": "4.1.2",
       "cli-table3": "0.6.5",
       "ejs": "3.1.10"
-   }
+   },
+   "keywords": [
+      "audit",
+      "ci",
+      "npm",
+      "security",
+      "report",
+      "npm",
+      "skip",
+      "ignore",
+      "exclude",
+      "exceptions",
+      "node",
+      "security",
+      "advisory",
+      "vulnerabilities",
+      "continuous integration",
+      "dependencies",
+      "check",
+      "build",
+      "script",
+      "nsp"
+   ]
 }
