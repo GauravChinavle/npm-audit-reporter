@@ -21,7 +21,7 @@ export default function htmlReporter({
 
         for (const vulnerability of vulnerabilityList) {
             let paths: any = [];
-            console.log(vulnerability.nodes);
+
             if (vulnerability.findings) {
                 paths = vulnerability.findings.map((finding: any) =>
                     finding.paths.join("\n"),
