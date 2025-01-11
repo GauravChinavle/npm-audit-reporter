@@ -1,0 +1,229 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>NPM Audit Report</title>
+      <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+         }
+
+         .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+         }
+
+         h1 {
+            text-align: center;
+            margin-bottom: 5px;
+         }
+
+         .date-time {
+            text-align: center;
+            color: #777;
+            font-size: 0.9rem;
+            margin-bottom: 10px;
+         }
+
+         .stats {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 30px;
+         }
+
+         .stat {
+            background-color: #fff;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            width: 15%;
+         }
+
+         .stat h2 {
+            margin: 0;
+            font-size: 1.8rem;
+         }
+
+         .stat p {
+            margin: 5px 0;
+            font-size: 1.2rem;
+         }
+
+         .critical {
+            background-color: #d9534f;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+         }
+
+         .high {
+            background-color: #f0ad4e;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+         }
+
+         .moderate {
+            background-color: #f0e68c;
+            color: black;
+            border-radius: 5px;
+            padding: 5px;
+         }
+
+         .low {
+            background-color: #a2c4c9;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+         }
+
+         .total {
+            background-color: #5bc0de;
+            color: white;
+            border-radius: 5px;
+            padding: 5px;
+         }
+
+         /* Chip Styles */
+         .chips-container {
+            display: flex;
+            gap: 10px; /* Space between the chips */
+            padding: 20px;
+            justify-content: center;
+         }
+
+         .chip {
+            display: flex;
+            align-items: center;
+            padding: 10px 15px;
+            border-radius: 20px;
+            font-family: Arial, sans-serif;
+            font-weight: bold;
+            color: black;
+         }
+
+         .chip-label {
+            margin-right: 8px;
+            font-size: 14px;
+         }
+
+         .chip-count {
+            background-color: white;
+            padding: 5px 10px;
+            border-radius: 12px;
+         }
+
+         .chip-critical {
+            background-color: #d9534f;
+         }
+
+         .chip-high {
+            background-color: #f0ad4e;
+         }
+
+         .chip-moderate {
+            background-color: #f0e68c;
+         }
+
+         .chip-low {
+            background-color: #a2c4c9;
+         }
+
+         .chip-vulnerabilities {
+            background-color: #b4a7d6;
+         }
+
+         table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+         }
+
+         th,
+         td {
+            padding: 10px;
+            border: 1px solid #ddd;
+         }
+
+         th {
+            background-color: #f8f9fa;
+            color: #333;
+         }
+
+         .severity .critical {
+            background-color: #d9534f;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+         }
+
+         .severity .high {
+            background-color: #f0ad4e;
+            color: white;
+            text-align: center;
+            border-radius: 10px;
+         }
+
+         .tags .tag {
+            background-color: #6f42c1;
+            color: white;
+            padding: 5px;
+            border-radius: 5px;
+            margin-right: 5px;
+            display: inline-block;
+         }
+      </style>
+   </head>
+
+   <body>
+      <div class="container">
+         <h1>NPM Audit Report</h1>
+         <div class="date-time">Last updated: 2025-01-11T17:23:38.864Z UTC</div>
+         <div class="chips-container">
+            <div class="chip chip-critical">
+               <span class="chip-label">Critical</span>
+               <span class="chip-count">0</span>
+            </div>
+            <div class="chip chip-high">
+               <span class="chip-label">High</span>
+               <span class="chip-count">0</span>
+            </div>
+            <div class="chip chip-moderate">
+               <span class="chip-label">Moderate</span>
+               <span class="chip-count">0</span>
+            </div>
+            <div class="chip chip-low">
+               <span class="chip-label">Low</span>
+               <span class="chip-count">0</span>
+            </div>
+            <div class="chip chip-vulnerabilities">
+               <span class="chip-label">Vulnerabilities</span>
+               <span class="chip-count">0%</span>
+            </div>
+         </div>
+
+         <!-- Table Section -->
+         <table>
+            <thead>
+               <tr>
+                  <th>Severity</th>
+                  <th>Package</th>
+                  <th>Paths</th>
+                  <th>Title</th>
+                  <th>Patched In</th>
+               </tr>
+            </thead>
+            <tbody>
+               
+            </tbody>
+         </table>
+      </div>
+   </body>
+</html>
