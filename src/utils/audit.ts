@@ -18,13 +18,13 @@ export default async function audit(): Promise<any> {
                   resolve({
                      vulnerabilities: auditReport.vulnerabilities,
                      metadata: auditReport.metadata,
+                     auditReportVersion: auditReport.auditReportVersion
                   });
                } else if (auditReport.advisories) {
                   resolve({
                      vulnerabilities: auditReport.advisories,
                      metadata: auditReport.metadata,
                   });
-                  resolve(auditReport);
                }
 
                if (auditReport.error) {
